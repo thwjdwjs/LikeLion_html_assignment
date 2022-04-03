@@ -1,0 +1,166 @@
+@font-face {font-family:MalgunGothic; src:url(디자인 요소/fonts/MalgunGothic.eot);}
+
+body{
+	background-image: url('디자인 요소/예시 배경1.jpg');
+	background-size: cover;
+	color: #FFFFFFB3;
+}
+
+.main-box{
+    width: 370px;
+    padding: 60px;
+    margin: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-img{
+	text-align: left;
+	margin-bottom: 25px
+}
+
+.id{
+	background: transparent;
+	padding: 20px 0px 10px 0px;
+	margin: 0px;
+	border: none;
+	border-bottom: solid 1px #FFFFFFB3;
+	width: 380px
+}
+
+input::placeholder {
+  color: white;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+input[type="checkbox"]+label{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border:3px solid #FFFFFFB3;
+	border-radius: 12px;
+	position: relative;
+	cursor: pointer;
+}
+input[id="check1"]:checked+label::after{
+	content:'✔';
+	font-size: 15px;
+	width: 18px;
+	height: 18px;
+	text-align:center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.checkbox-text{
+	position: absolute;
+	width: 200px;
+	left: 28px;
+	display: inline-block;
+	font-size: 90%
+}
+
+.login-button{
+	background-color: #fee500;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	border: 0;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #191919;
+	display: block;
+}
+<style>
+.line{
+	width: 100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:12px;
+}
+.line:before{
+	display: inline-block;
+	margin:0 10px 5px;
+	height: 1px;
+	content: " ";
+	text-shadow: none;
+	background-color: #999;
+	width:145px;
+
+}
+.line:after {
+	display: inline-block;
+	margin:0 10px 5px;
+	height: 1px;
+	content: "";
+	text-shadow: none;
+	background-color: #999;
+	width:145px;
+}
+</style>
+
+.or{
+	color: #FFFFFFB3;
+}
+
+
+.qr-button{
+	background-color: #f6f6f6;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	border: 0;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #191919;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.join {
+    font-size:10px;
+    font-weight: bold;
+    float: left;
+}
+
+.kakao-account{
+    font-size:10px;
+    font-weight: bold;
+    float: right;
+}
+
+.search-password{
+    font-size:10px;
+    font-weight: bold;
+    float: right;
+}
+
+.info{
+	position: relative;
+	right: 100px;
+	width: 600px;
+	text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+.selection{
+	background: transparent;
+	color: #FFFFFFB3;
+	border: none;
+	font-size: 12px;
+	
+}
+.copyright {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
